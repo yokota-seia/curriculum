@@ -18,7 +18,7 @@ public class Check{
             System.out.print(date[i] + " ");
         }
         System.out.println();
-        for (int i = 0; i < /*ここに記述*/date.length; i++) {
+        for (int i = 0; i < /*ここに記述*/date.length-1; i++) {
             for (int j = date.length-1/*ここに記述*/; j > i; j--) {
                 /*
                 * 問3
